@@ -1,0 +1,16 @@
+{
+  "name": "wearejh/m2-core-bug-oos-price-fix",
+  "description": "Fixes an issue where the price shows as 0.00 for out of stock configurable products",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jh\\CoreBugOOSPriceFix\\": ""
+    }
+  }
+}
