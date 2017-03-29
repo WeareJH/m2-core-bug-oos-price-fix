@@ -1,4 +1,4 @@
 <config>
-    <virtualType name="Magento\ConfigurableProduct\Pricing\Price\ConfigurablePriceResolver" type="Jh\CoreBugOOSPriceFix\Pricing\Price\ConfigurablePriceResolver">
-    </virtualType>
+    <preference for="Magento\Catalog\Model\ResourceModel\Product\CompositeBaseSelectProcessor"
+                type="Jh\CoreBugOOSPriceFix\Model\ResourceModel\Product\CompositeBaseSelectProcessor" />
 </config>
